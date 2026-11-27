@@ -2,6 +2,7 @@
  * @file    item.cpp
  * @brief   Item class and all item type implementations.
  * @author  Ruhul Alam
+ * Student ID: 21317879
  * @date    2026-11-26
  */
 
@@ -143,10 +144,10 @@ QString Ring::getCategory() const { return "Ring"; }
 /* ================================================================== */
 
 /** @brief Make a Sword (Weapon, weight 10, +10 attack). */
-Item* makeSword()         { return new Weapon("Sword",         10,  10,   0); }
+Item* makeSword() { return new Weapon("Sword", 10, 10); }
 
 /** @brief Make a Dagger (Weapon, weight 5, +5 attack). */
-Item* makeDagger()        { return new Weapon("Dagger",         5,   5,   0); }
+Item* makeDagger() { return new Weapon("Dagger", 5, 5); }
 
 /** @brief Make Plate Armour (Armour, weight 40, -5 attack, +10 defence). */
 Item* makePlateArmour()   { return new Armour("Plate Armour",  40,  -5,  10); }

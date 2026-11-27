@@ -7,6 +7,7 @@
  *          stats and special defence rule.
  *          Characters own an Inventory via unique_ptr.
  * @author  Ruhul Alam
+ * Student ID: 21317879
  * @date    2026-11-26
  */
 
@@ -19,6 +20,8 @@
 
 /**
  * @class  Character
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Abstract base class for every character in the game.
  *
  * Holds stats shared by all characters: health, attack, defence,
@@ -175,6 +178,8 @@ protected:
 
 /**
  * @class  Human
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Human character.
  * @details Attack 30 (2/3 chance), Defence 20 (1/2 chance),
  *          Health 60, Strength 100.
@@ -189,6 +194,8 @@ public:
 
 /**
  * @class  Elf
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Elf character.
  * @details Attack 40 (always hits), Defence 10 (1/4 chance),
  *          Health 40, Strength 70.
@@ -203,6 +210,8 @@ public:
 
 /**
  * @class  Dwarf
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Dwarf character.
  * @details Attack 30 (2/3 chance), Defence 20 (2/3 chance),
  *          Health 50, Strength 130.
@@ -217,6 +226,8 @@ public:
 
 /**
  * @class  Hobbit
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Hobbit character.
  * @details Attack 25 (1/3 chance), Defence 20 (2/3 chance),
  *          Health 70, Strength 85.
@@ -231,6 +242,8 @@ public:
 
 /**
  * @class  Orc
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Orc character. Very different stats during day and night.
  * @details Day:   Attack 25 (1/4 chance), Defence 10 (1/4 chance).
  *          Night: Attack 45 (always hits), Defence 25 (1/2 chance).

@@ -7,6 +7,7 @@
  *          Each type (Weapon, Armour, Shield, Ring) has its own category.
  *          A character can carry one of each category except rings.
  * @author  Ruhul Alam
+ * Student ID: 21317879
  * @date    2026-11-26
  */
 
@@ -17,6 +18,8 @@
 
 /**
  * @class  Item
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Abstract base class for all items in the game.
  *
  * Every item has a name, weight, and stat bonuses.
@@ -74,6 +77,8 @@ protected:
 
 /**
  * @class  Weapon
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  A weapon (Sword or Dagger). Adds attack.
  * @details Only one weapon may be carried at a time.
  */
@@ -85,6 +90,8 @@ public:
 
 /**
  * @class  Armour
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Armour (Plate or Leather). Adds defence, may reduce attack.
  * @details Only one armour may be carried at a time.
  */
@@ -96,6 +103,8 @@ public:
 
 /**
  * @class  Shield
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  A shield (Large or Small). Adds defence, may reduce attack.
  * @details Only one shield may be carried at a time.
  */
@@ -107,6 +116,8 @@ public:
 
 /**
  * @class  Ring
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  A ring (Ring of Life or Ring of Strength).
  * @details A character can carry many rings as long as there is
  *          enough carry weight.

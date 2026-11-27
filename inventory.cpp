@@ -2,6 +2,7 @@
  * @file    inventory.cpp
  * @brief   Inventory class implementation.
  * @author  Ruhul Alam
+ * Student ID: 21317879
  * @date    2026-11-26
  */
 

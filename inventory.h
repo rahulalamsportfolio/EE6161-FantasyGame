@@ -7,6 +7,7 @@
  *          Only one item of each category is allowed except rings,
  *          which can be many.
  * @author  Ruhul Alam
+ * Student ID: 21317879
  * @date    2026-11-26
  */
 
@@ -20,6 +21,8 @@
 
 /**
  * @class  Inventory
+ * @author Ruhul Alam
+ * Student ID: 21317879
  * @brief  Manages the items a character carries.
  *
  * Items are stored in a vector of unique_ptr so the inventory

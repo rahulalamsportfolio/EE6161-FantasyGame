@@ -2,6 +2,7 @@
  * @file    character.cpp
  * @brief   Character base class and all race implementations.
  * @author  Ruhul Alam
+ * Student ID: 21317879
  * @date    2026-11-26
  */
 
